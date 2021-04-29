@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Event Manager</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css"> 
+        <link rel="stylesheet" href="assets/css/feature-pages.css">
+        <link rel="stylesheet" href="assets/css/grid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="assets/script/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class="dash-wrapper">
+            <div class="wrapper clearfix">
+                <div class="row-dash">
+                    <div class="col-1 dash-nav-container">
+                        <div class="dash-nav">
+                            <div class="icon-logo">
+                                <a href="homepage.html">
+                                    <img src="assets/images/logo-EM2.png" alt="EM logo" width="" height"" onmouseover="this.src='assets/images/logo-EM-highlight.png';" onmouseout="this.src='assets/images/logo-EM2.png';" />
+                                </a>
+                            </div>
+                            <ul>
+                               <li><a href="dashboard.html"><i class="fa fa-dashboard"></i>  Dashboard</a></li>
+                                <li><a href="tasklist.html"><i class="fa fa-calendar-check-o"></i>  Task List</a></li>
+                                <li><a href="guestlist.html"><i class="fa fa-group"></i> Guest List</a></li>
+                                <li><a href="budget.html"><i class="fa fa-calculator"></i>  Budget</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 main-container">
+                        <header class="col-2 task-header">
+                            <h1>Budget</h1>
+                        </header>
+                        <div class="row-dash" style="clear:both;">
+                            <div class="col-2 dash-sidebar-container">
+                                <div class="dash-sidebar">
+                                    <h2>Action Bar</h2>
+                                    <div class="filter-list">
+                                        <ul>
+                                            <li>Category 1</li>
+                                            <li>Category 2</li>
+                                            <li>Category 3</li>
+                                            <li>Category 4</li>
+                                        </ul>
+                                        <div class="action-bar">
+                                            <ul>
+                                                <li><button class="action">Add List</button></li>
+                                                <li><button class="action">Delete List</button></li>
+                                                <li><button class="action">Edit List</button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 dash-main-container" id="dash-main">
+                            <div class="dash-main">
+                                <h2>Category 1</h2>
+                                <div class="task-list">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" class="check"><label>Budget Item</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" class="check"><label>Budget Item</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h2>Category 2</h2>
+                                <div class="task-list">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" class="check"><label>Budget Item</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" class="check"><label>Budget Item</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/script/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="assets/script/main.js"></script>
+        <script src="assets/script/featureColumn.js"></script>
+    </body>
+</html>

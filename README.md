@@ -1,1 +1,2 @@
-# eventmanager
+Go to website homepage:
+[EManager](homepage.html)

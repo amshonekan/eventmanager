@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Event Manager</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/grid.css">
+
+        <script src="assets/script/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="form-modal">
+            <div class="modal-event-create">
+                <button type="button" class="modal-close-button">X</button>
+                <div class="modal-wrapper">
+                    <div class="modal-viewport">
+                        <div class="modal-header">
+                            <h2>Create an event</h2>
+                        </div>
+                        <div class="modal-content">
+                            <form action="js/action_page.js" method="GET">
+                                <ol>
+                                    <li class="form-item">
+                                        <label>Event name:</label>
+                                        <br/>
+                                        <input type="text" name="event-name" placeholder="Name of event">
+                                    </li>
+                                    <li class="form-item">
+                                        <label>Event date:</label>
+                                        <br/>
+                                        <input type="date" name="event-date" placeholder="Date of event">
+                                    </li>
+                                    <li class="form-item">
+                                        <label>Event location:</label>
+                                        <br/>
+                                        <input type="text" name="event-loc" placeholder="Location of event">
+                                    </li>
+                                    <li class="form-item">
+                                        <label>Event type:</label>
+                                        <br/>
+                                        <select>
+                                            <option value="pre-select" selected disabled>Select event type</option>
+                                            <option value="birthday">Birthday</option>
+                                            <option value="wedding">Wedding</option>
+                                            <option value="conference">Conference</option>
+                                            <option value="generic">Generic</option>
+                                        </select>
+                                    </li>
+                                    <li class="form-item">
+                                        <label>Notes:</label>
+                                        <br/>  
+                                        <textarea class="notes" maxlength="300" placeholder="Notes"></textarea>  
+                                    </li>
+                                </ol>
+                                <button class="modal-form-submit" type="submit" onclick="formSubmit();">Create your event</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
