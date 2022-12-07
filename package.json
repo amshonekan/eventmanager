@@ -13,7 +13,7 @@
   "author": "a.shonekan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "swig": "^1.4.2"
   },
   "devDependencies": {
